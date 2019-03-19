@@ -1,0 +1,28 @@
+@relation forrestB
+
+@attribute ﻿wmc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+12,FALSE
+8,FALSE
+3,FALSE
+2,FALSE
+4,FALSE
+14,FALSE
+3,FALSE
+3,FALSE
+3,FALSE
+17,FALSE
+11,TRUE
+7,FALSE
+8,FALSE
+13,FALSE
+5,TRUE
+3,FALSE
+3,FALSE
+7,FALSE
+3,FALSE
+4,FALSE
+2,FALSE
+3,FALSE
