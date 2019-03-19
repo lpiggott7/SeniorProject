@@ -16,4 +16,8 @@ Each dataset has a folder. Within the folder, you will find the following files/
   4. &lt;dataset name&gt;&#95;B.arff - the unsampled (no sample) file (for testing)
   
   5. &lt;dataset name&gt;.csv - the original dataset prior to sampling, column removal, and splitting into A and B.  
+  
+  6. &lt;dataset name&gt;&#95;A.csv - the dataset prior to sampling and non-featured column removal, but post splitting into A and B (for training)
+  
+  7. &lt;dataset name&gt;&#95;B.csv - the dataset prior to sampling and non-featured column removal, but post splitting into A and B (for testing)
 
