@@ -1,0 +1,242 @@
+*****NEW RESULT*************************
+best classifier: weka.classifiers.meta.RandomSubSpace
+arguments: [-I, 36, -P, 0.2757331204049802, -S, 1, -W, weka.classifiers.lazy.IBk, --, -E, -K, 10, -X]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.08874458874458875
+training time on evaluation dataset: 0.213 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.meta.RandomSubSpace", new String[]{"-I", "36", "-P", "0.2757331204049802", "-S", "1", "-W", "weka.classifiers.lazy.IBk", "--", "-E", "-K", "10", "-X"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         390               84.4156 %
+Incorrectly Classified Instances        72               15.5844 %
+Kappa statistic                          0.6543
+Mean absolute error                      0.295 
+Root mean squared error                  0.3481
+Relative absolute error                 63.8824 %
+Root relative squared error             72.4602 %
+Total Number of Instances              462     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 268  27 |   a = TRUE
+  45 122 |   b = FALSE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.908    0.269    0.856      0.908    0.882      0.657    0.927     0.962     TRUE
+                 0.731    0.092    0.819      0.731    0.772      0.657    0.927     0.852     FALSE
+Weighted Avg.    0.844    0.205    0.843      0.844    0.842      0.657    0.927     0.922     
+
+Temporary run directories:
+/tmp/autoweka2182067311970244071/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 258 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.lazy.LWL
+arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.bayes.BayesNet, --, -Q, weka.classifiers.bayes.net.search.local.K2]
+attribute search: weka.attributeSelection.GreedyStepwise
+attribute search arguments: [-B, -R]
+attribute evaluation: weka.attributeSelection.CfsSubsetEval
+attribute evaluation arguments: [-L]
+metric: errorRate
+estimated errorRate: 0.3078602620087336
+training time on evaluation dataset: 0.001 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+AttributeSelection as = new AttributeSelection();
+ASSearch asSearch = ASSearch.forName("weka.attributeSelection.GreedyStepwise", new String[]{"-B", "-R"});
+as.setSearch(asSearch);
+ASEvaluation asEval = ASEvaluation.forName("weka.attributeSelection.CfsSubsetEval", new String[]{"-L"});
+as.setEvaluator(asEval);
+as.SelectAttributes(instances);
+instances = as.reduceDimensionality(instances);
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.lazy.LWL", new String[]{"-A", "weka.core.neighboursearch.LinearNNSearch", "-W", "weka.classifiers.bayes.BayesNet", "--", "-Q", "weka.classifiers.bayes.net.search.local.K2"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         634               69.214  %
+Incorrectly Classified Instances       282               30.786  %
+Kappa statistic                          0.398 
+Mean absolute error                      0.3809
+Root mean squared error                  0.4371
+Relative absolute error                 76.948  %
+Root relative squared error             87.8576 %
+Total Number of Instances              916     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 346  66 |   a = TRUE
+ 216 288 |   b = FALSE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.840    0.429    0.616      0.840    0.710      0.420    0.761     0.689     TRUE
+                 0.571    0.160    0.814      0.571    0.671      0.420    0.761     0.827     FALSE
+Weighted Avg.    0.692    0.281    0.725      0.692    0.689      0.420    0.761     0.765     
+
+Temporary run directories:
+/tmp/autoweka7417712631774525933/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 299 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.14682539682539683
+training time on evaluation dataset: 0.209 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.trees.RandomForest", new String[]{"-I", "10", "-K", "0", "-depth", "0"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         854               84.7222 %
+Incorrectly Classified Instances       154               15.2778 %
+Kappa statistic                          0.6944
+Mean absolute error                      0.2062
+Root mean squared error                  0.3119
+Relative absolute error                 41.2416 %
+Root relative squared error             62.3859 %
+Total Number of Instances             1008     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 453  51 |   a = TRUE
+ 103 401 |   b = FALSE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.899    0.204    0.815      0.899    0.855      0.698    0.943     0.944     TRUE
+                 0.796    0.101    0.887      0.796    0.839      0.698    0.943     0.948     FALSE
+Weighted Avg.    0.847    0.153    0.851      0.847    0.847      0.698    0.943     0.946     
+
+Temporary run directories:
+/tmp/autoweka2435631168417345548/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 237 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.rules.DecisionTable
+arguments: [-E, acc, -I, -S, weka.attributeSelection.GreedyStepwise, -X, 1]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.30257936507936506
+training time on evaluation dataset: 0.221 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.rules.DecisionTable", new String[]{"-E", "acc", "-I", "-S", "weka.attributeSelection.GreedyStepwise", "-X", "1"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         706               70.0397 %
+Incorrectly Classified Instances       302               29.9603 %
+Kappa statistic                          0.4008
+Mean absolute error                      0.3972
+Root mean squared error                  0.4418
+Relative absolute error                 79.4369 %
+Root relative squared error             88.3663 %
+Total Number of Instances             1008     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 434  70 |   a = TRUE
+ 232 272 |   b = FALSE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.861    0.460    0.652      0.861    0.742      0.423    0.751     0.684     TRUE
+                 0.540    0.139    0.795      0.540    0.643      0.423    0.751     0.767     FALSE
+Weighted Avg.    0.700    0.300    0.723      0.700    0.692      0.423    0.751     0.725     
+
+Temporary run directories:
+/tmp/autoweka2336637252519487324/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 387 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 1.152106262167039, -N, 0, -M, -K, weka.classifiers.functions.supportVector.Puk -S 5.350239851811477 -O 0.16585023869544807]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.3300970873786408
+training time on evaluation dataset: 0.564 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.functions.SMO", new String[]{"-C", "1.152106262167039", "-N", "0", "-M", "-K", "weka.classifiers.functions.supportVector.Puk -S 5.350239851811477 -O 0.16585023869544807"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         552               66.9903 %
+Incorrectly Classified Instances       272               33.0097 %
+Kappa statistic                          0.3398
+Mean absolute error                      0.4297
+Root mean squared error                  0.4638
+Relative absolute error                 85.948  %
+Root relative squared error             92.7523 %
+Total Number of Instances              824     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 324  88 |   a = TRUE
+ 184 228 |   b = FALSE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.786    0.447    0.638      0.786    0.704      0.349    0.713     0.670     TRUE
+                 0.553    0.214    0.722      0.553    0.626      0.349    0.713     0.731     FALSE
+Weighted Avg.    0.670    0.330    0.680      0.670    0.665      0.349    0.713     0.701     
+
+Temporary run directories:
+/tmp/autoweka6846813057721977537/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 327 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
