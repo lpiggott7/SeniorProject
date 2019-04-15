@@ -1,0 +1,24 @@
+@relation poiA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100
+
+@attribute wmc numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute dam numeric
+@attribute cam numeric
+@attribute cbm numeric
+@attribute amc numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+14,30,35,12,0.673077,173,0,0.328571,5,11.071429,FALSE
+8,19,0,7,1.142857,161,0.5,0.35,5,18.875,FALSE
+0,0,0,0,2,41,0,0,0,0,FALSE
+7,20,9,7,0.833333,173,1,0.571429,0,22.857143,FALSE
+1,1,0,1,2,1,0,1,0,0,FALSE
+9,17,36,7,1.125,72,0,0.555556,6,6.888889,TRUE
+11,21,49,9,0.975,108,0.25,0.522727,6,8.454545,TRUE
+5,8,10,4,1.25,26,0,0.5,2,4,TRUE
+12,22,46,10,0.818182,127,0.5,0.4,6,9.416667,TRUE
