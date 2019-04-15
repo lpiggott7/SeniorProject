@@ -1,0 +1,29 @@
+@relation jeditA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100
+
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute cbm numeric
+@attribute max_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+67,4,10,11,19,0.764286,492,0.857143,2,0.19375,0,0,6,FALSE
+6,15,4,1,6,2,6,0,0,1,0,0,1,FALSE
+2,1,7,1,2,2,2,0,0,0.7,0,0,1,FALSE
+99,61,4,11,9,0.722222,777,0.777778,0,0.111111,0,0,14,FALSE
+27,10,2,12,1,1.071429,182,0,0,0.72,0,0,1,FALSE
+18,5,1,7,7,0.809524,153,1,2,0.392857,2,2,2,FALSE
+12,0,2,6,4,0.625,182,1,1,0.325,1,4,12,FALSE
+16,3,1,2,3,2,50,0,0,1,2,4,1,FALSE
+148,1039,45,21,45,0.778867,1684,0.117647,5,0.126362,0,0,32,TRUE
+51,129,11,6,9,0.873016,593,0.8,5,0.140909,0,0,11,TRUE
+128,153,29,18,12,0.897306,1181,0.888889,3,0.173913,1,7,18,TRUE
