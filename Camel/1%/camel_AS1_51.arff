@@ -1,0 +1,32 @@
+@relation camelA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute cbo numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute npm numeric
+@attribute loc numeric
+@attribute cbm numeric
+@attribute max_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+1,0,5,1,1,1,23,0,3,FALSE
+1,0,0,0,0,1,4,0,0,FALSE
+1,7,11,24,7,5,118,0,2,FALSE
+1,0,4,1,4,2,2,0,1,FALSE
+2,0,11,22,3,8,57,0,1,FALSE
+1,0,10,73,0,10,192,0,2,FALSE
+1,0,6,516,5,41,507,0,1,FALSE
+2,4,12,34,5,8,172,0,3,FALSE
+3,0,4,33,1,10,58,5,1,FALSE
+4,0,6,5,1,8,168,2,3,FALSE
+3,0,9,4,2,2,36,0,1,FALSE
+2,0,7,24,0,9,78,0,1,FALSE
+1,0,2,1,0,2,7,0,1,FALSE
+4,0,5,1,2,1,24,1,1,FALSE
+2,0,12,834,4,44,345,2,1,TRUE
+3,0,6,0,4,4,52,0,2,TRUE
+4,0,8,15,2,6,39,3,1,TRUE
+1,0,6,1,5,2,2,0,1,TRUE
