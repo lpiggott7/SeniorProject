@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+***Poi_B.arff***
 best classifier: weka.classifiers.meta.RandomSubSpace
 arguments: [-I, 36, -P, 0.2757331204049802, -S, 1, -W, weka.classifiers.lazy.IBk, --, -E, -K, 10, -X]
 attribute search: null
@@ -46,6 +47,7 @@ Tried 258 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Poi_A.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.bayes.BayesNet, --, -Q, weka.classifiers.bayes.net.search.local.K2]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -100,6 +102,7 @@ Tried 299 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Poi_A_O1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 10, -K, 0, -depth, 0]
 attribute search: null
@@ -147,6 +150,7 @@ Tried 237 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Poi_A_S1.arff***
 best classifier: weka.classifiers.rules.DecisionTable
 arguments: [-E, acc, -I, -S, weka.attributeSelection.GreedyStepwise, -X, 1]
 attribute search: null
@@ -194,6 +198,7 @@ Tried 387 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Poi_A_U1.arff***
 best classifier: weka.classifiers.functions.SMO
 arguments: [-C, 1.152106262167039, -N, 0, -M, -K, weka.classifiers.functions.supportVector.Puk -S 5.350239851811477 -O 0.16585023869544807]
 attribute search: null
