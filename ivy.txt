@@ -1,0 +1,263 @@
+*****NEW RESULT*************************
+best classifier: weka.classifiers.lazy.LWL
+arguments: [-U, 0, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.MultilayerPerceptron, --, -L, 0.16710102137270286, -M, 0.16231122272732393, -B, -H, i, -S, 1]
+attribute search: weka.attributeSelection.GreedyStepwise
+attribute search arguments: [-C, -R]
+attribute evaluation: weka.attributeSelection.CfsSubsetEval
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.06779661016949153
+training time on evaluation dataset: 0.002 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+AttributeSelection as = new AttributeSelection();
+ASSearch asSearch = ASSearch.forName("weka.attributeSelection.GreedyStepwise", new String[]{"-C", "-R"});
+as.setSearch(asSearch);
+ASEvaluation asEval = ASEvaluation.forName("weka.attributeSelection.CfsSubsetEval", new String[]{});
+as.setEvaluator(asEval);
+as.SelectAttributes(instances);
+instances = as.reduceDimensionality(instances);
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.lazy.LWL", new String[]{"-U", "0", "-A", "weka.core.neighboursearch.LinearNNSearch", "-W", "weka.classifiers.functions.MultilayerPerceptron", "--", "-L", "0.16710102137270286", "-M", "0.16231122272732393", "-B", "-H", "i", "-S", "1"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         220               93.2203 %
+Incorrectly Classified Instances        16                6.7797 %
+Kappa statistic                          0.5491
+Mean absolute error                      0.1267
+Root mean squared error                  0.2512
+Relative absolute error                 61.775  %
+Root relative squared error             78.9069 %
+Total Number of Instances              236     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 209   0 |   a = FALSE
+  16  11 |   b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.593    0.929      1.000    0.963      0.615    0.833     0.971     FALSE
+                 0.407    0.000    1.000      0.407    0.579      0.615    0.833     0.615     TRUE
+Weighted Avg.    0.932    0.525    0.937      0.932    0.919      0.615    0.833     0.930     
+
+Temporary run directories:
+/tmp/autoweka3026155855196868423/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 785 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.trees.REPTree
+arguments: [-M, 3, -V, 0.013208453059871152, -L, 15]
+attribute search: weka.attributeSelection.BestFirst
+attribute search arguments: [-D, 2, -N, 6]
+attribute evaluation: weka.attributeSelection.CfsSubsetEval
+attribute evaluation arguments: [-L]
+metric: errorRate
+estimated errorRate: 0.1752136752136752
+training time on evaluation dataset: 0.03 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+AttributeSelection as = new AttributeSelection();
+ASSearch asSearch = ASSearch.forName("weka.attributeSelection.BestFirst", new String[]{"-D", "2", "-N", "6"});
+as.setSearch(asSearch);
+ASEvaluation asEval = ASEvaluation.forName("weka.attributeSelection.CfsSubsetEval", new String[]{"-L"});
+as.setEvaluator(asEval);
+as.SelectAttributes(instances);
+instances = as.reduceDimensionality(instances);
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.trees.REPTree", new String[]{"-M", "3", "-V", "0.013208453059871152", "-L", "15"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         386               82.4786 %
+Incorrectly Classified Instances        82               17.5214 %
+Kappa statistic                          0.2126
+Mean absolute error                      0.2591
+Root mean squared error                  0.3599
+Relative absolute error                 81.8124 %
+Root relative squared error             90.5618 %
+Total Number of Instances              468     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 371   5 |   a = FALSE
+  77  15 |   b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.987    0.837    0.828      0.987    0.900      0.294    0.766     0.907     FALSE
+                 0.163    0.013    0.750      0.163    0.268      0.294    0.766     0.411     TRUE
+Weighted Avg.    0.825    0.675    0.813      0.825    0.776      0.294    0.766     0.809     
+
+Temporary run directories:
+/tmp/autoweka8927178198483684312/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 470 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.functions.SMO
+arguments: [-C, 0.9076828345781872, -N, 2, -K, weka.classifiers.functions.supportVector.RBFKernel -G 0.39145148949890196]
+attribute search: weka.attributeSelection.BestFirst
+attribute search arguments: [-D, 0, -N, 6]
+attribute evaluation: weka.attributeSelection.CfsSubsetEval
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.009308510638297872
+training time on evaluation dataset: 0.86 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+AttributeSelection as = new AttributeSelection();
+ASSearch asSearch = ASSearch.forName("weka.attributeSelection.BestFirst", new String[]{"-D", "0", "-N", "6"});
+as.setSearch(asSearch);
+ASEvaluation asEval = ASEvaluation.forName("weka.attributeSelection.CfsSubsetEval", new String[]{});
+as.setEvaluator(asEval);
+as.SelectAttributes(instances);
+instances = as.reduceDimensionality(instances);
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.functions.SMO", new String[]{"-C", "0.9076828345781872", "-N", "2", "-K", "weka.classifiers.functions.supportVector.RBFKernel -G 0.39145148949890196"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         745               99.0691 %
+Incorrectly Classified Instances         7                0.9309 %
+Kappa statistic                          0.9814
+Mean absolute error                      0.0093
+Root mean squared error                  0.0965
+Relative absolute error                  1.8617 %
+Root relative squared error             19.2961 %
+Total Number of Instances              752     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 369   7 |   a = FALSE
+   0 376 |   b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.981    0.000    1.000      0.981    0.991      0.982    0.991     0.991     FALSE
+                 1.000    0.019    0.982      1.000    0.991      0.982    0.991     0.982     TRUE
+Weighted Avg.    0.991    0.009    0.991      0.991    0.991      0.982    0.991     0.986     
+
+Temporary run directories:
+/tmp/autoweka3339893172508719564/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 242 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 111, -K, 1, -depth, 0]
+attribute search: weka.attributeSelection.BestFirst
+attribute search arguments: [-D, 1, -N, 5]
+attribute evaluation: weka.attributeSelection.CfsSubsetEval
+attribute evaluation arguments: [-L]
+metric: errorRate
+estimated errorRate: 0.0013297872340425532
+training time on evaluation dataset: 0.542 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+AttributeSelection as = new AttributeSelection();
+ASSearch asSearch = ASSearch.forName("weka.attributeSelection.BestFirst", new String[]{"-D", "1", "-N", "5"});
+as.setSearch(asSearch);
+ASEvaluation asEval = ASEvaluation.forName("weka.attributeSelection.CfsSubsetEval", new String[]{"-L"});
+as.setEvaluator(asEval);
+as.SelectAttributes(instances);
+instances = as.reduceDimensionality(instances);
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.trees.RandomForest", new String[]{"-I", "111", "-K", "1", "-depth", "0"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         751               99.867  %
+Incorrectly Classified Instances         1                0.133  %
+Kappa statistic                          0.9973
+Mean absolute error                      0.1003
+Root mean squared error                  0.1363
+Relative absolute error                 20.054  %
+Root relative squared error             27.262  %
+Total Number of Instances              752     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 376   0 |   a = FALSE
+   1 375 |   b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.003    0.997      1.000    0.999      0.997    1.000     1.000     FALSE
+                 0.997    0.000    1.000      0.997    0.999      0.997    1.000     1.000     TRUE
+Weighted Avg.    0.999    0.001    0.999      0.999    0.999      0.997    1.000     1.000     
+
+Temporary run directories:
+/tmp/autoweka5808329351588098348/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 266 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
+*****NEW RESULT*************************
+best classifier: weka.classifiers.lazy.LWL
+arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.Logistic, --, -R, 2.8498182591149034E-11]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.25
+training time on evaluation dataset: 0.0 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.lazy.LWL", new String[]{"-A", "weka.core.neighboursearch.LinearNNSearch", "-W", "weka.classifiers.functions.Logistic", "--", "-R", "2.8498182591149034E-11"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         138               75      %
+Incorrectly Classified Instances        46               25      %
+Kappa statistic                          0.5   
+Mean absolute error                      0.3778
+Root mean squared error                  0.4297
+Relative absolute error                 75.5627 %
+Root relative squared error             85.9404 %
+Total Number of Instances              184     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 77 15 |  a = FALSE
+ 31 61 |  b = TRUE
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.837    0.337    0.713      0.837    0.770      0.508    0.802     0.804     FALSE
+                 0.663    0.163    0.803      0.663    0.726      0.508    0.802     0.793     TRUE
+Weighted Avg.    0.750    0.250    0.758      0.750    0.748      0.508    0.802     0.799     
+
+Temporary run directories:
+/tmp/autoweka18876218708429607/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 489 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+*********************************************
