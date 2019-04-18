@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+***Ivy_B.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-U, 0, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.MultilayerPerceptron, --, -L, 0.16710102137270286, -M, 0.16231122272732393, -B, -H, i, -S, 1]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -53,6 +54,7 @@ Tried 785 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Ivy_A.arff***
 best classifier: weka.classifiers.trees.REPTree
 arguments: [-M, 3, -V, 0.013208453059871152, -L, 15]
 attribute search: weka.attributeSelection.BestFirst
@@ -107,6 +109,7 @@ Tried 470 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Ivy_A_O1.arff***
 best classifier: weka.classifiers.functions.SMO
 arguments: [-C, 0.9076828345781872, -N, 2, -K, weka.classifiers.functions.supportVector.RBFKernel -G 0.39145148949890196]
 attribute search: weka.attributeSelection.BestFirst
@@ -161,6 +164,7 @@ Tried 242 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Ivy_A_S1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 111, -K, 1, -depth, 0]
 attribute search: weka.attributeSelection.BestFirst
@@ -215,6 +219,7 @@ Tried 266 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Ivy_A_U1.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.Logistic, --, -R, 2.8498182591149034E-11]
 attribute search: null
