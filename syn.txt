@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+***Syn_B.arff***
 best classifier: weka.classifiers.meta.AdaBoostM1
 arguments: [-P, 100, -I, 33, -Q, -S, 1, -W, weka.classifiers.trees.DecisionStump, --]
 attribute search: weka.attributeSelection.BestFirst
@@ -53,6 +54,7 @@ Tried 548 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Syn_A.arff***
 best classifier: weka.classifiers.functions.MultilayerPerceptron
 arguments: [-L, 0.620304021165965, -M, 0.5434011542858376, -H, i, -C, -R, -D, -S, 1]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -107,6 +109,7 @@ Tried 331 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Syn_A_O1.arff***
 best classifier: weka.classifiers.meta.RandomSubSpace
 arguments: [-I, 36, -P, 0.2757331204049802, -S, 1, -W, weka.classifiers.lazy.IBk, --, -E, -K, 10, -X]
 attribute search: null
@@ -154,6 +157,7 @@ Tried 319 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Syn_A_S1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 10, -K, 0, -depth, 0]
 attribute search: null
@@ -201,6 +205,7 @@ Tried 298 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Syn_A_U1.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.trees.DecisionStump, --]
 attribute search: weka.attributeSelection.BestFirst
