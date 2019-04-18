@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+******KeyA_B.arff***
 best classifier: weka.classifiers.functions.MultilayerPerceptron
 arguments: [-L, 0.6546470757134388, -M, 0.3401889072466995, -B, -H, o, -C, -R, -S, 1]
 attribute search: null
@@ -46,6 +47,7 @@ Tried 558 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+******KeyA_A.arff***
 best classifier: weka.classifiers.meta.RandomSubSpace
 arguments: [-I, 36, -P, 0.2757331204049802, -S, 1, -W, weka.classifiers.lazy.IBk, --, -E, -K, 10, -X]
 attribute search: null
@@ -93,6 +95,7 @@ Tried 431 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+******KeyA_A_O1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 111, -K, 1, -depth, 0]
 attribute search: weka.attributeSelection.BestFirst
@@ -147,6 +150,7 @@ Tried 298 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+******KeyA_A_S1.arff***
 best classifier: weka.classifiers.meta.RandomSubSpace
 arguments: [-I, 36, -P, 0.2757331204049802, -S, 1, -W, weka.classifiers.lazy.IBk, --, -E, -K, 10, -X]
 attribute search: null
@@ -194,6 +198,7 @@ Tried 410 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+******KeyA_A_U1.arff***
 best classifier: weka.classifiers.meta.Bagging
 arguments: [-P, 31, -I, 70, -S, 1, -W, weka.classifiers.trees.DecisionStump, --]
 attribute search: weka.attributeSelection.BestFirst
