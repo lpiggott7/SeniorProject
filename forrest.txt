@@ -101,7 +101,7 @@ Tried 642 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
-***forrest_B_O1.arff***
+***forrest_A_O1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 113, -K, 0, -depth, 17]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -156,7 +156,7 @@ Tried 573 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
-***forrest_B_S1.arff***
+***forrest_A_S1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 29, -K, 0, -depth, 6]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -211,7 +211,7 @@ Tried 627 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
-***forrest_B_U1.arff***
+***forrest_A_U1.arff***
 best classifier: weka.classifiers.meta.AdaBoostM1
 arguments: [-P, 100, -I, 19, -Q, -S, 1, -W, weka.classifiers.rules.PART, --, -N, 4, -M, 1, -R]
 attribute search: weka.attributeSelection.GreedyStepwise
