@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+******Jedit_B.arff***
 best classifier: weka.classifiers.meta.Bagging
 arguments: [-P, 44, -I, 38, -S, 1, -W, weka.classifiers.functions.Logistic, --, -R, 0.00862004925960008]
 attribute search: null
@@ -46,6 +47,7 @@ Tried 606 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Jedit_A.arff***
 best classifier: weka.classifiers.functions.SMO
 arguments: [-C, 1.0714348457549439, -N, 1, -M, -K, weka.classifiers.functions.supportVector.Puk -S 9.511586831684498 -O 0.3117412247617498]
 attribute search: weka.attributeSelection.BestFirst
@@ -100,6 +102,7 @@ Tried 289 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Jedit_A_O1.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-K, 90, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.trees.RandomForest, --, -I, 61, -K, 0, -depth, 0]
 attribute search: weka.attributeSelection.BestFirst
@@ -154,6 +157,7 @@ Tried 202 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Jedit_A_S1.arff***
 best classifier: weka.classifiers.bayes.BayesNet
 arguments: [-Q, weka.classifiers.bayes.net.search.local.TAN]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -208,6 +212,7 @@ Tried 183 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Jedit_A_U1.arff***
 best classifier: weka.classifiers.lazy.LWL
 arguments: [-U, 2, -A, weka.core.neighboursearch.LinearNNSearch, -W, weka.classifiers.functions.SimpleLogistic, --, -W, 0.116081439049885]
 attribute search: weka.attributeSelection.GreedyStepwise
