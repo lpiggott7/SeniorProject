@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+***Xer_B.arff***
 best classifier: weka.classifiers.trees.DecisionStump
 arguments: []
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -53,6 +54,7 @@ Tried 485 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Xer_A.arff***
 best classifier: weka.classifiers.functions.MultilayerPerceptron
 arguments: [-L, 0.9016538469375728, -M, 0.36063042122350475, -H, a, -R, -D, -S, 1]
 attribute search: null
@@ -100,6 +102,7 @@ Tried 301 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Xer_A_O1.arff***
 best classifier: weka.classifiers.lazy.IBk
 arguments: [-K, 1, -I]
 attribute search: null
@@ -147,6 +150,7 @@ Tried 209 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Xer_A_S1.arff***
 best classifier: weka.classifiers.trees.RandomForest
 arguments: [-I, 10, -K, 0, -depth, 0]
 attribute search: null
@@ -194,6 +198,7 @@ Tried 194 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***Xer_A_U1.arff***
 best classifier: weka.classifiers.meta.RandomSubSpace
 arguments: [-I, 31, -P, 0.6035921443291526, -S, 1, -W, weka.classifiers.lazy.IBk, --, -K, 13]
 attribute search: weka.attributeSelection.GreedyStepwise
