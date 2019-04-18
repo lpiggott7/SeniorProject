@@ -1,4 +1,5 @@
 *****NEW RESULT*************************
+***ant_b.arff***
 best classifier: weka.classifiers.rules.DecisionTable
 arguments: [-E, acc, -I, -S, weka.attributeSelection.BestFirst, -X, 1]
 attribute search: null
@@ -46,6 +47,7 @@ Tried 411 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***ant_B.arff***
 best classifier: weka.classifiers.functions.MultilayerPerceptron
 arguments: [-L, 0.2737810261424545, -M, 0.8248143427139586, -B, -H, t, -C, -D, -S, 1]
 attribute search: weka.attributeSelection.BestFirst
@@ -100,6 +102,7 @@ Tried 275 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***ant_A_O1.arff***
 best classifier: weka.classifiers.meta.AdaBoostM1
 arguments: [-P, 100, -I, 23, -S, 1, -W, weka.classifiers.rules.PART, --, -M, 6, -B]
 attribute search: weka.attributeSelection.GreedyStepwise
@@ -154,6 +157,7 @@ Tried 189 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***ant_A_S1.arff***
 best classifier: weka.classifiers.bayes.BayesNet
 arguments: [-Q, weka.classifiers.bayes.net.search.local.TAN]
 attribute search: null
@@ -201,6 +205,7 @@ Tried 184 configurations; to get good results reliably you may need to allow for
 
 *********************************************
 *****NEW RESULT*************************
+***ant_A_U1.arff***
 best classifier: weka.classifiers.functions.Logistic
 arguments: [-R, 1.0469091161449093E-11]
 attribute search: weka.attributeSelection.GreedyStepwise
