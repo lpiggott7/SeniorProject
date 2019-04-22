@@ -1,0 +1,17 @@
+@relation antA-weka.filters.supervised.instance.Resample-B0.0-S1-Z1.0-no-replacement-weka.filters.supervised.instance.Resample-B1.0-S1-Z36.363636-no-replacement
+
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute amc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+2,18,11,1,4,0.633333,118,1,0.357143,15.142857,FALSE
+16,42,17,9,10,0.7,291,2,0.287879,25,TRUE

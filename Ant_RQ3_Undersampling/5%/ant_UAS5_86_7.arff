@@ -1,0 +1,33 @@
+@relation antA-weka.filters.supervised.instance.Resample-B0.0-S1-Z5.0-no-replacement-weka.filters.supervised.instance.Resample-B1.0-S1-Z36.363636-no-replacement
+
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute amc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+11,23,1,7,5,0.8,95,2,0.6,14.333333,FALSE
+7,19,3,6,2,1,93,0,0.5,29.666667,FALSE
+2,20,21,2,9,0.6,132,0,0.4,11.7,FALSE
+15,56,86,12,6,0.8,372,2,0.226667,22.0625,FALSE
+4,40,330,2,2,0.77276,2011,1,0.20625,60.4375,FALSE
+51,102,301,13,24,0.603448,1238,1,0.121839,40.2,FALSE
+7,71,14,5,16,0.866071,569,1,0.163399,31.647059,FALSE
+11,34,68,7,12,0.75,199,0,0.292308,14.153846,FALSE
+8,42,2,8,4,0.666667,242,0,0.75,59,FALSE
+32,57,147,6,19,0.805195,441,1,0.313043,17.869565,TRUE
+10,78,8,9,9,0.75,502,1,0.384615,37.076923,TRUE
+13,18,0,7,4,0.222222,137,2,0.5,32.5,TRUE
+12,68,133,6,16,0.571429,677,0,0.266234,29.590909,TRUE
+10,92,39,10,29,0.723485,710,2,0.148485,19.647059,TRUE
+15,99,165,13,10,0.814935,1007,6,0.158385,42.173913,TRUE
+7,49,7,6,7,0.735043,488,0,0.25,33.214286,TRUE
+8,26,0,8,3,0.333333,125,1,0.4,30,TRUE
+11,53,16,10,7,0.75,457,0,0.271605,49.222222,TRUE
