@@ -1,0 +1,32 @@
+@relation 'Keymind - BA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N4-F4-weka.filters.supervised.instance.Resample-B1.0-S1-Z25.3164557-no-replacement'
+
+@attribute NR numeric
+@attribute NFIX numeric
+@attribute CHURN_SUM numeric
+@attribute CHURN_AVG numeric
+@attribute AGE numeric
+@attribute Violations numeric
+@attribute Size.Next numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+2,2,0,0,18,64,53,FALSE
+6,1,31,6,23,66,50,FALSE
+6,2,40,10,22,15,16,FALSE
+0,0,0,0,-23,17,29,FALSE
+0,0,0,0,-23,0,15,FALSE
+3,1,14,7,25,43,98,FALSE
+6,1,45,9,24,0,11,FALSE
+0,0,0,0,-19,0,466,FALSE
+2,2,0,0,43,0,9,FALSE
+0,0,0,0,-19,0,17,FALSE
+10,5,92,18,22,0,12,TRUE
+5,1,5,1,23,39,29,TRUE
+4,4,0,0,45,5,35,TRUE
+14,7,-176,-25,24,0,11,TRUE
+14,8,5,5,26,0,8,TRUE
+9,5,0,0,28,70,15,TRUE
+2,1,0,0,27,33,12,TRUE
+6,2,0,0,27,41,29,TRUE
+14,4,0,0,27,0,26,TRUE
+4,4,0,0,29,5,35,TRUE
