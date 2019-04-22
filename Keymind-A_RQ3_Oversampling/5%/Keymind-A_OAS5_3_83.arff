@@ -1,0 +1,40 @@
+@relation Keymind-AA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20-weka.filters.supervised.instance.Resample-B1.0-S1-Z139.1304348
+
+@attribute CHGSET_SUM numeric
+@attribute AGE numeric
+@attribute Size.Next numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+0,-4,25,TRUE
+88,24,26,TRUE
+0,-10,48,TRUE
+0,27,38,TRUE
+0,-28,38,TRUE
+0,-28,38,TRUE
+0,27,38,TRUE
+35,7,43,TRUE
+0,-10,48,TRUE
+0,-72,105,TRUE
+35,7,43,TRUE
+0,-28,38,TRUE
+88,24,26,TRUE
+0,-28,38,TRUE
+35,7,43,TRUE
+0,27,38,TRUE
+0,-24,20,FALSE
+2,8,18,FALSE
+2,8,18,FALSE
+34,18,3,FALSE
+3,23,8,FALSE
+34,18,3,FALSE
+0,-17,5,FALSE
+34,18,3,FALSE
+29,24,15,FALSE
+0,-39,53,FALSE
+2,8,18,FALSE
+3,23,8,FALSE
+0,-62,1279,FALSE
+0,-62,1279,FALSE
+29,24,15,FALSE
+6,18,40,FALSE
