@@ -1,0 +1,21 @@
+@relation arA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20
+
+@attribute total_loc numeric
+@attribute unique_operators numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+2,2,FALSE
+34,11,FALSE
+7,4,FALSE
+79,10,FALSE
+530,12,FALSE
+33,5,FALSE
+24,16,FALSE
+31,5,FALSE
+51,4,FALSE
+8,12,FALSE
+74,11,FALSE
+82,12,FALSE
+191,22,TRUE
+324,21,TRUE
