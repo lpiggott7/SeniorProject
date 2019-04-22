@@ -1,0 +1,39 @@
+@relation luceneA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20-weka.filters.supervised.instance.Resample-B1.0-S1-Z107.6923077
+
+@attribute wmc numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute dam numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+9,10,2,0,8,0.666667,FALSE
+9,10,2,0,8,0.666667,FALSE
+3,4,3,0,3,0,FALSE
+1,2,0,0,1,0,FALSE
+4,8,6,0,4,0,FALSE
+1,2,0,0,1,0,FALSE
+4,5,0,3,3,0.666667,FALSE
+3,4,3,0,3,0,FALSE
+16,24,0,2,12,1,FALSE
+1,2,0,0,1,0,FALSE
+16,24,0,2,12,1,FALSE
+9,10,2,0,8,0.666667,FALSE
+4,8,6,0,4,0,FALSE
+9,11,34,3,7,1,FALSE
+48,119,742,20,32,0.64,TRUE
+3,13,1,10,3,0,TRUE
+16,34,62,6,3,1,TRUE
+22,52,95,6,7,1,TRUE
+12,39,0,8,11,1,TRUE
+2,6,0,3,2,1,TRUE
+22,52,95,6,7,1,TRUE
+22,52,95,6,7,1,TRUE
+3,13,1,10,3,0,TRUE
+3,16,3,3,3,0,TRUE
+22,52,95,6,7,1,TRUE
+3,16,3,3,3,0,TRUE
+16,34,62,6,3,1,TRUE
+3,16,3,3,3,0,TRUE

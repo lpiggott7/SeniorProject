@@ -1,0 +1,42 @@
+@relation log4jA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F10-weka.filters.supervised.instance.Resample-B1.0-S1-Z117.2413793
+
+@attribute wmc numeric
+@attribute rfc numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute dam numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+5,26,8,2,0,FALSE
+5,11,2,4,0,FALSE
+5,7,0,3,1,FALSE
+4,10,2,3,0,FALSE
+6,25,3,2,0,FALSE
+9,34,3,2,0,FALSE
+6,25,3,2,0,FALSE
+9,34,3,2,0,FALSE
+1,1,1,1,0,FALSE
+4,10,2,3,0,FALSE
+9,34,3,2,0,FALSE
+9,34,3,2,0,FALSE
+5,11,2,4,0,FALSE
+1,1,1,1,0,FALSE
+5,7,0,3,1,FALSE
+4,10,0,3,0,FALSE
+20,46,8,15,0.666667,TRUE
+4,25,4,3,0.5,TRUE
+2,9,0,2,0,TRUE
+2,4,1,1,0,TRUE
+13,62,9,8,0,TRUE
+2,4,1,1,0,TRUE
+2,4,1,1,0,TRUE
+8,38,4,2,0,TRUE
+4,8,4,4,0,TRUE
+13,62,9,8,0,TRUE
+7,30,6,2,0,TRUE
+4,8,4,4,0,TRUE
+4,25,4,3,0.5,TRUE
+6,25,4,1,0.75,TRUE
+20,46,8,15,0.666667,TRUE
+6,25,4,1,0.75,TRUE
