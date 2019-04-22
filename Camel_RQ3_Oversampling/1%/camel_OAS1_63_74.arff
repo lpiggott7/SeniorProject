@@ -1,0 +1,42 @@
+@relation camelA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100-weka.filters.supervised.instance.Resample-B1.0-S1-Z155.5555556
+
+@attribute dit numeric
+@attribute noc numeric
+@attribute cbo numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute npm numeric
+@attribute loc numeric
+@attribute cbm numeric
+@attribute max_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+5,1,5,0,3,3,33,0,1,FALSE
+1,0,20,178,9,13,587,0,9,FALSE
+3,10,19,30,12,10,114,3,2,FALSE
+4,1,9,3,1,1,52,2,1,FALSE
+4,1,9,3,1,1,52,2,1,FALSE
+3,0,4,1,0,1,9,1,1,FALSE
+1,0,5,0,4,1,1,0,1,FALSE
+3,0,4,1,0,1,9,1,1,FALSE
+3,0,7,0,1,2,56,1,1,FALSE
+1,0,6,1,2,1,21,0,1,FALSE
+1,0,6,1,2,1,21,0,1,FALSE
+1,0,5,0,4,1,1,0,1,FALSE
+1,0,22,247,11,23,118,0,1,FALSE
+3,0,11,59,3,9,349,4,4,FALSE
+2,1,9,4,4,6,103,5,3,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+4,0,12,52,4,12,115,3,2,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+3,0,9,6,6,4,25,2,1,TRUE
+3,0,9,6,6,4,25,2,1,TRUE
+2,1,9,4,4,6,103,5,3,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+2,1,9,4,4,6,103,5,3,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+5,0,5,0,1,2,27,0,1,TRUE
+3,0,9,6,6,4,25,2,1,TRUE
