@@ -1,0 +1,27 @@
+@relation ivyA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F10-weka.filters.supervised.instance.Resample-B1.0-S1-Z39.13043478-no-replacement
+
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute ce numeric
+@attribute loc numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+16,38,0,159,0.981132,1,FALSE
+1,4,0,14,0,0.666667,FALSE
+16,52,0,336,0.740741,0.46875,FALSE
+3,6,3,24,0,0.466667,FALSE
+7,26,3,119,0,0.272727,FALSE
+9,4,0,32,0,0.75,FALSE
+7,29,4,213,0.413793,0.233333,FALSE
+8,29,3,188,0,0.235714,FALSE
+13,94,0,1203,0.73913,0.357143,TRUE
+8,5,5,15,0,0.625,TRUE
+12,52,12,288,0.753846,0.470588,TRUE
+12,32,4,152,0,0.309524,TRUE
+5,79,0,948,0,0.292857,TRUE
+4,19,3,82,0,0.31746,TRUE
+16,31,12,146,0,0.183824,TRUE
+10,44,9,432,0,0.357143,TRUE

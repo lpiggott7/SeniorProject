@@ -1,0 +1,24 @@
+@relation jeditA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100-weka.filters.supervised.instance.Resample-B1.0-S1-Z54.54545455-no-replacement
+
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ca numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute dam numeric
+@attribute moa numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute cbm numeric
+@attribute max_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+15,0,4,2,6,0.428571,139,1,1,0.395833,0,0,5,FALSE
+7,21,39,0,7,2,7,0,0,0.52381,0,0,1,FALSE
+5,1,2,5,2,1,22,0,0,0.625,1,1,1,FALSE
+27,0,4,8,0,0.5,158,0,0,0.466667,0,0,5,TRUE
+65,14,4,14,4,0.633333,398,1,2,0.323077,2,5,8,TRUE
+75,44,4,13,1,0.814815,517,1,0,0.5,3,5,12,TRUE
