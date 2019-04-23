@@ -1,0 +1,25 @@
+@relation xalanA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100-weka.filters.supervised.instance.Resample-B1.0-S1-Z72.72727273-no-replacement
+
+@attribute lcom numeric
+@attribute lcom3 numeric
+@attribute loc numeric
+@attribute amc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+99,0.907407,335,16,FALSE
+2,0.333333,475,117.25,FALSE
+45,2,116,10.6,FALSE
+3,0.329412,833,45,FALSE
+0,2,111,88,FALSE
+15,2,34,4.666667,FALSE
+0,2,1,0,FALSE
+6,0.660714,399,47.875,FALSE
+2,1,518,102,TRUE
+0,0.55,570,93.333333,TRUE
+1,2,44,21,TRUE
+607,0.9,1849,47.394737,TRUE
+1,0.5,234,76.666667,TRUE
+1,0.5,499,165,TRUE
+30,0.583333,390,28.846154,TRUE
+3056,0.913655,1279,14.083333,TRUE
