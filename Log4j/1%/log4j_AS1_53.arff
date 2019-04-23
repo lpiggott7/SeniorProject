@@ -1,0 +1,12 @@
+@relation log4jA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100
+
+@attribute wmc numeric
+@attribute rfc numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute dam numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+8,22,3,4,1,TRUE
+8,10,0,8,0,FALSE
