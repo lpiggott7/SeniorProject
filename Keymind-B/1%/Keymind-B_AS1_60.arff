@@ -1,0 +1,15 @@
+@relation 'Keymind - BA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100'
+
+@attribute NR numeric
+@attribute NFIX numeric
+@attribute CHURN_SUM numeric
+@attribute CHURN_AVG numeric
+@attribute AGE numeric
+@attribute Violations numeric
+@attribute Size.Next numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+0,0,0,0,-43,3,9,FALSE
+2,0,2,1,21,0,36,FALSE
+14,4,170,17,23,0,26,TRUE
