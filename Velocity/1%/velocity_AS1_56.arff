@@ -1,0 +1,16 @@
+@relation velocityA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100
+
+@attribute dit numeric
+@attribute cbo numeric
+@attribute lcom3 numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute cbm numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+2,17,0.52381,0.823529,0.28125,1,1,TRUE
+2,16,0.566667,0.848485,0.326531,1,1,TRUE
+2,8,2,0.903226,0.4,1,2,FALSE
+2,9,2,0.903226,0.4,1,2,FALSE
