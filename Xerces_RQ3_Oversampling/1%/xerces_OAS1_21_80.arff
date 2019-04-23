@@ -1,0 +1,33 @@
+@relation xercesA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N100-F100-weka.filters.supervised.instance.Resample-B1.0-S1-Z160.0
+
+@attribute wmc numeric
+@attribute dit numeric
+@attribute noc numeric
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute ce numeric
+@attribute npm numeric
+@attribute lcom3 numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute cbm numeric
+@attribute max_cc numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+62,1,0,24,130,17,39,0.850198,0.138249,0,0,6,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+13,2,0,7,52,6,8,0.769841,0.2,0,0,4,TRUE
+70,1,0,17,192,16,22,0.92296,0.148033,0,0,3,FALSE
+5,4,0,3,8,3,5,2,0.6,1,4,1,FALSE
+9,4,0,3,12,3,9,2,0.555556,1,6,1,FALSE
+7,4,0,3,10,3,7,2,0.571429,1,6,1,FALSE
+11,1,0,0,11,0,11,2,0.515152,0,0,1,FALSE
+2,1,0,0,2,0,2,2,0.75,0,0,1,FALSE
+11,1,0,0,11,0,11,2,0.515152,0,0,1,FALSE
+2,1,0,0,2,0,2,2,0.75,0,0,1,FALSE
