@@ -1,0 +1,38 @@
+@relation velocityA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20-weka.filters.supervised.instance.Resample-B1.0-S1-Z133.3333333
+
+@attribute dit numeric
+@attribute cbo numeric
+@attribute lcom3 numeric
+@attribute mfa numeric
+@attribute cam numeric
+@attribute ic numeric
+@attribute cbm numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+2,16,0.566667,0.848485,0.326531,1,1,TRUE
+2,11,2,0.933333,0.416667,1,1,TRUE
+3,6,2,0.875,0.722222,2,2,TRUE
+3,6,2,0.875,0.722222,2,2,TRUE
+1,25,0.428571,0,0.392857,0,0,TRUE
+2,11,2,0.933333,0.416667,1,1,TRUE
+3,6,2,0.875,0.722222,2,2,TRUE
+2,2,2,0.714286,0.666667,1,2,TRUE
+1,12,0.361111,0,0.325,0,0,TRUE
+1,12,0.361111,0,0.325,0,0,TRUE
+2,11,2,0.933333,0.416667,1,1,TRUE
+1,25,0.428571,0,0.392857,0,0,TRUE
+1,10,0.166667,0,0.5,0,0,TRUE
+2,2,2,0.8,0.666667,0,0,FALSE
+1,21,2,0,0.295455,0,0,FALSE
+3,8,2,0.907407,0.5,2,2,FALSE
+2,2,2,0.8,0.666667,0,0,FALSE
+4,8,1.5,0.964286,0.666667,3,4,FALSE
+3,8,2,0.907407,0.5,2,2,FALSE
+2,6,0.875,0.903226,0.4,0,0,FALSE
+3,8,2,0.907407,0.5,2,2,FALSE
+1,2,0.416667,0,0.466667,0,0,FALSE
+1,21,2,0,0.295455,0,0,FALSE
+2,6,0.875,0.903226,0.4,0,0,FALSE
+1,2,2,0,0.555556,0,0,FALSE
+1,21,2,0,0.295455,0,0,FALSE
