@@ -1,0 +1,11 @@
+@relation pbeansA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F10
+
+@attribute cam numeric
+@attribute Faultiness {TRUE,FALSE}
+
+@data
+0.357143,TRUE
+0.583333,TRUE
+1,FALSE
+0.211111,FALSE
+1,FALSE
