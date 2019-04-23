@@ -1,0 +1,10 @@
+@relation forrestA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F10
+
+@attribute wmc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+3,FALSE
+1,FALSE
+5,FALSE
+4,TRUE
