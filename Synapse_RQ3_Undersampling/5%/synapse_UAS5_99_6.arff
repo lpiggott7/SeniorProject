@@ -1,0 +1,21 @@
+@relation synapseA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20-weka.filters.supervised.instance.Resample-B1.0-S1-Z47.61904762-no-replacement
+
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ce numeric
+@attribute dam numeric
+@attribute avg_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+4,2,1,2,0,1,FALSE
+10,27,4,10,1,2.75,FALSE
+8,17,9,5,1,1.8571,FALSE
+2,1,0,0,0,1,FALSE
+5,9,4,5,1,0.5,FALSE
+7,22,11,4,1,1.9,TRUE
+5,8,1,5,1,0.3333,TRUE
+12,60,0,11,1,8.2,TRUE
+8,47,13,8,0.5,1.5,TRUE
+26,77,99,26,1,2.6,TRUE

@@ -1,0 +1,43 @@
+@relation synapseA-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N20-F20-weka.filters.supervised.instance.Resample-B1.0-S1-Z152.3809524
+
+@attribute cbo numeric
+@attribute rfc numeric
+@attribute lcom numeric
+@attribute ce numeric
+@attribute dam numeric
+@attribute avg_cc numeric
+@attribute Faultiness {FALSE,TRUE}
+
+@data
+8,18,8,7,0.5,0.8,FALSE
+46,7,21,1,0,1,FALSE
+7,19,2,7,1,1,FALSE
+8,8,4,7,1,0.75,FALSE
+5,9,4,5,1,0.5,FALSE
+46,7,21,1,0,1,FALSE
+4,8,4,4,1,0.5,FALSE
+4,8,4,4,1,0.5,FALSE
+14,41,0,10,1,1.7,FALSE
+46,7,21,1,0,1,FALSE
+7,19,2,7,1,1,FALSE
+4,2,0,0,0,0,FALSE
+8,18,8,7,0.5,0.8,FALSE
+8,24,3,8,0,2.6667,FALSE
+5,9,4,5,1,0.5,FALSE
+46,7,21,1,0,1,FALSE
+11,56,20,10,1,5.125,TRUE
+26,77,99,26,1,2.6,TRUE
+37,144,1172,30,0.961538,1.8302,TRUE
+4,22,2,3,1,1.75,TRUE
+11,38,81,10,1,0.8667,TRUE
+4,22,2,3,1,1.75,TRUE
+11,56,20,10,1,5.125,TRUE
+11,38,81,10,1,0.8667,TRUE
+11,38,81,10,1,0.8667,TRUE
+11,38,81,10,1,0.8667,TRUE
+11,38,81,10,1,0.8667,TRUE
+11,38,81,10,1,0.8667,TRUE
+26,77,99,26,1,2.6,TRUE
+11,38,81,10,1,0.8667,TRUE
+4,22,2,3,1,1.75,TRUE
+11,38,81,10,1,0.8667,TRUE
