@@ -1,5 +1,5 @@
 *****NEW RESULT*************************
-*******log4_A_S1.arff*****
+*******log4_A_O1.arff*****
 best classifier: weka.classifiers.lazy.IBk
 arguments: [-K, 38, -I]
 attribute search: null
