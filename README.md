@@ -24,6 +24,7 @@ Each dataset has a folder. Within the folder, you will find the following files/
   8. &lt;dataset name&gt;&#95;B.csv - the dataset prior to sampling and non-featured column removal, but post splitting into A and B (for testing)
 
 **RQ3 Details**
+
 This repository contains the following datasets for RQ3 Undersampling and Oversampling:
 1. Ant 
 2. Camel 
