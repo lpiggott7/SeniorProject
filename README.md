@@ -23,3 +23,19 @@ Each dataset has a folder. Within the folder, you will find the following files/
   
   8. &lt;dataset name&gt;&#95;B.csv - the dataset prior to sampling and non-featured column removal, but post splitting into A and B (for testing)
 
+**RQ3 Details**
+This repository contains the following datasets for RQ3 Undersampling and Oversampling:
+1. Ant 
+2. Camel 
+3. Ivy
+4. Jedit
+5. Keymind-A
+6. Keymind-B
+7. Log4j
+8. Lucene
+9. Poi
+10. Prop (only Undersampling 1%)
+11. Synapse
+12. Velocity
+13. Xalan
+14. Xerces
